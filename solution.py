@@ -35,6 +35,6 @@ if __name__=="__main__":
         json.dump(di,jsonDumpFile, indent=4)
     with open('airlines.json', 'r') as jsonFile:
         print(jsonFile.read())
-    print("Maximum Airline Travelled: ",maxAirlineTravelled)
-    print("Minimum Airline Travelled: ",minAirlineTravelled)
+    print("Maximum Airline Travelled:",maxAirlineTravelled[1],"\nFrequency:",maxAirlineTravelled[0])
+    print("\nMinimum Airline Travelled:",minAirlineTravelled[1],"\nFrequency:",minAirlineTravelled[0])
             
